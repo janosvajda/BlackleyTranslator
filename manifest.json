@@ -2,7 +2,8 @@
   "name": "Simple Translate",
   "description": "It can translate selected text by online translators like Google Chrome. It also can open dictonaries.",
   "version": "0.1",
-  "permissions": ["contextMenus","tabs","activeTab","http://api.mymemory.translated.net/"],
+  "permissions": ["contextMenus","tabs","activeTab","storage","http://api.mymemory.translated.net/"],
+  "options_page": "options.html",
   "background": {
     "scripts": ["main.js"]
   },
@@ -12,7 +13,8 @@
     "css": ["jquery-ui.min.css"],
     "js": ["jquery-1.11.3.min.js","jquery-ui.min.js","content.js"],
     "run_at": "document_end"
-  }],
+  }
+  ],
   "icons": { 
         "16":  "icon16.png",
         "48":  "icon48.png",
