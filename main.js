@@ -1,4 +1,4 @@
-/*  Simple translator Google Chrome extension
+/*  Translator extension for Google Chrome 
     Author: Janos Vajda
     License: GNU General Public License
 */
