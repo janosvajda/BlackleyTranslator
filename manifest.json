@@ -20,5 +20,14 @@
         "48":  "icon48.png",
         "128": "icon128.png" 
    },
+  "commands": {
+    "toggle-feature-foo": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+Y",
+              "mac": "Command+Shift+Y"
+            },
+            "description": "Toggle feature foo"
+        }
+  },
   "manifest_version": 2
 }

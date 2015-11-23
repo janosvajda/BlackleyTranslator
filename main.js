@@ -5,6 +5,10 @@
 
 'use strict';
 
+chrome.commands.onCommand.addListener(function(command) {
+        console.log('Command:', command);
+});
+
 function OnClickGTranslate(info, tab) {
     window.open("https://translate.google.com/#auto/hu/"+info.selectionText);
 }
